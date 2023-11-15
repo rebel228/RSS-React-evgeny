@@ -102,6 +102,7 @@ export const Header = () => {
 
   function getPokemonSearch() {
     setIsLoading(false);
+    console.log('hi');
     if (inputValue === '') {
       localStorage.setItem('searchValue', '');
       getPokemon(offsetPokemon);
